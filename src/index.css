@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.metronome {
+  text-align: center;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.bpm-slider input {
+  widows: 100%;
+  margin: 10px;
+}
+
+.metronome button {
+  background: #c94d46;
+  padding: 10px;
+  border: 1px solid #832420;
+  border-radius: 2px;
+  widows: 100px;
+  color: #fff;
+  font-siz: 18px;
 }
